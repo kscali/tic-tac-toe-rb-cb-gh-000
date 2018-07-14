@@ -95,14 +95,12 @@ end
 
 
 def play()
-  
-  until over?(board)
   turn(board)
-  
-  if current_player = won?(board)
-    puts "Congratulation"
-  elsif draw?(board)
-    puts "It is a draw"
+  until over?(board)
+    if current_player = won?(board)
+      puts "Congratulation"
+    elsif draw?(board)
+      puts "It is a draw"
   end 
  end  
 end  
