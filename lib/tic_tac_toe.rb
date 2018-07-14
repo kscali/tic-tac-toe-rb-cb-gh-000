@@ -19,8 +19,8 @@ end
 
 
 def input_to_index(board)
-  input = gets.strip
-  input.to_i - 1
+  user_input = gets.strip
+  user_input.to_i - 1
 end  
 
 
