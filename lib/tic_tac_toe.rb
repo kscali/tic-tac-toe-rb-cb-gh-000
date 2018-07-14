@@ -95,8 +95,9 @@ end
 
 
 def play(board)
-  turn(board)
-  until over?(board)
+  while !over?(board)
+    turn(board)
+  end  
     if current_player = won?(board)
       puts "Congratulation"
     elsif draw?(board)
