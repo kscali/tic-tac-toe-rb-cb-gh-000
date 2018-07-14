@@ -100,7 +100,7 @@ def play()
     if current_player = won?(board)
       puts "Congratulation"
     elsif draw?(board)
-      puts "It is a draw"
+      puts "Cat's Game!"
   end 
  end  
 end  
