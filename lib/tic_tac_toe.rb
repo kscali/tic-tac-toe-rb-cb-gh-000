@@ -25,7 +25,7 @@ end
 
 
 def move(board, index, player)
-  board[index] = value
+  board[index] = player
 end
 
 
@@ -95,7 +95,7 @@ def winner(board)
 end
 
 
-def play()
+def play(board)
   turn(board)
   until over?(board)
     if current_player = won?(board)
