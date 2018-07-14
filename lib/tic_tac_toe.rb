@@ -18,6 +18,7 @@ def play(board)
       puts "Cat's Game!"
   end 
 end 
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
