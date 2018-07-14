@@ -19,12 +19,12 @@ end
 
 
 def input_to_index(board)
-  user_input.to_i - 1
+  input.to_i - 1
 end  
 
 
 def move(board, index, value)
-
+  board[index] = value
 end
 
 
